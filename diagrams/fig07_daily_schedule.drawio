@@ -1,0 +1,159 @@
+<mxfile host="app.diagrams.net" modified="2025-11-16T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram name="理想的な1日のスケジュール" id="schedule">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- タイトル -->
+        <mxCell id="title" value="成長を最大化する理想的な1日のスケジュール" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- タイムライン -->
+        <mxCell id="timeline" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#3498DB;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="400" as="sourcePoint" />
+            <mxPoint x="1100" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 6:00 起床 -->
+        <mxCell id="wakeup_point" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F39C12;strokeColor=#E67E22;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="wakeup_box" value="6:00&#xa;起床" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E6;strokeColor=#F39C12;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="wakeup_detail" value="☀️ 朝日を浴びる&#xa;(15～30分)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFACD;strokeColor=#F39C12;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="35" y="440" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 7:00 朝食 -->
+        <mxCell id="breakfast_point" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#27AE60;strokeColor=#229954;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="215" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="breakfast_box" value="7:00&#xa;朝食" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F8F5;strokeColor=#27AE60;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="breakfast_detail" value="🍳 タンパク質重視&#xa;(卵・納豆・乳製品)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5F4E6;strokeColor=#27AE60;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 8:00-15:00 学校 -->
+        <mxCell id="school_point" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#3498DB;strokeColor=#2874A6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="school_box" value="8:00-15:00&#xa;学校" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EBF5FB;strokeColor=#3498DB;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="school_detail" value="📚 集中して学習&#xa;給食でバランス良く" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6EAF8;strokeColor=#3498DB;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="285" y="440" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 16:00 運動・部活 -->
+        <mxCell id="exercise_point" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#E74C3C;strokeColor=#C0392B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="465" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="exercise_box" value="16:00&#xa;運動・部活" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEDEC;strokeColor=#E74C3C;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="exercise_detail" value="🏃 骨に刺激を&#xa;(縄跳び・バスケ)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F9EBEA;strokeColor=#E74C3C;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="410" y="440" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 18:00 夕食 -->
+        <mxCell id="dinner_point" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#27AE60;strokeColor=#229954;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dinner_box" value="18:00&#xa;夕食" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F8F5;strokeColor=#27AE60;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dinner_detail" value="🍖 タンパク質+野菜&#xa;(魚・肉・豆腐)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5F4E6;strokeColor=#27AE60;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="535" y="440" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 19:30 入浴 -->
+        <mxCell id="bath_point" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#9B59B6;strokeColor=#7D3C98;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="715" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="bath_box" value="19:30&#xa;入浴" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4ECF7;strokeColor=#9B59B6;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="bath_detail" value="🛁 38～40℃&#xa;リラックス" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EBDEF0;strokeColor=#9B59B6;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="660" y="440" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 20:00 デジタルデトックス -->
+        <mxCell id="detox_point" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#E67E22;strokeColor=#CA6F1E;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="840" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="detox_box" value="20:00&#xa;デジタル&#xa;デトックス" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF5E7;strokeColor=#E67E22;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="290" width="100" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="detox_detail" value="📵 スマホ・PC OFF&#xa;読書・ストレッチ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCF3CF;strokeColor=#E67E22;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="785" y="440" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 21:00 就寝 -->
+        <mxCell id="sleep_point" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ABC9C;strokeColor=#148F77;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="965" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sleep_box" value="21:00&#xa;就寝" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F6F3;strokeColor=#1ABC9C;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="925" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sleep_detail" value="😴 9時間睡眠&#xa;暗く静かな部屋" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D1F2EB;strokeColor=#1ABC9C;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="910" y="440" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 重要ポイント強調 -->
+        <mxCell id="key_point1" value="⭐ 重要ポイント ⭐" style="text;html=1;strokeColor=#C00000;fillColor=#FFE6E6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="300" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="key_detail1" value="✓ 朝日を浴びて体内時計をリセット&#xa;✓ 3食バランス良くタンパク質を摂取&#xa;✓ 骨に刺激を与える運動を毎日&#xa;✓ 20時以降はデジタルデトックス&#xa;✓ 21時就寝・9時間睡眠を確保" style="text;html=1;strokeColor=#27AE60;fillColor=#E8F8F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="500" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- 時間帯の分類 -->
+        <mxCell id="morning_label" value="朝" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#F39C12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="day_label" value="日中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#3498DB;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="evening_label" value="夕方～夜" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#9B59B6;" vertex="1" parent="1">
+          <mxGeometry x="550" y="520" width="340" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sleep_label" value="睡眠（成長の時間）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1ABC9C;" vertex="1" parent="1">
+          <mxGeometry x="900" y="520" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 成長ホルモン分泌時間の表示 -->
+        <mxCell id="gh_time" value="🌙 この時間帯に成長ホルモンが最も分泌されます 🌙" style="text;html=1;strokeColor=#C00000;fillColor=#FFE6E6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="570" width="300" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

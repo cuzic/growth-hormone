@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" modified="2025-11-16T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram name="5大栄養素とその役割" id="nutrients">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- タイトル -->
+        <mxCell id="title" value="成長に必須！5大栄養素とその役割" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="700" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subtitle" value="これらの栄養素を毎日バランス良く摂取しましょう" style="text;html=1;strokeColor=#27AE60;fillColor=#E8F8F5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="90" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 栄養素1: タンパク質 -->
+        <mxCell id="protein_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F6F3;strokeColor=#1ABC9C;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="500" height="150" as="geometry" />
+        </mxCell>
+
+        <mxCell id="protein_icon" value="🥩" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ABC9C;strokeColor=#148F77;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="100" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="protein_title" value="タンパク質" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#1ABC9C;" vertex="1" parent="1">
+          <mxGeometry x="220" y="175" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="protein_role" value="役割：骨・筋肉・軟骨を作る材料&#xa;目標：体重×2g/日（50kg→100g/日）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="220" y="215" width="340" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="protein_foods" value="代表食品：肉・魚・卵・大豆・乳製品" style="text;html=1;strokeColor=#1ABC9C;fillColor=#D1F2EB;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="340" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 栄養素2: カルシウム -->
+        <mxCell id="calcium_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF5E7;strokeColor=#F39C12;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="620" y="160" width="500" height="150" as="geometry" />
+        </mxCell>
+
+        <mxCell id="calcium_icon" value="🥛" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F39C12;strokeColor=#E67E22;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="640" y="180" width="100" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="calcium_title" value="カルシウム" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#F39C12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="175" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="calcium_role" value="役割：骨を丈夫にする&#xa;目標：800～1000mg/日" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="215" width="340" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="calcium_foods" value="代表食品：牛乳・チーズ・小魚・豆腐" style="text;html=1;strokeColor=#F39C12;fillColor=#FCF3CF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="270" width="340" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 栄養素3: ビタミンD -->
+        <mxCell id="vitd_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEDEC;strokeColor=#E74C3C;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="500" height="150" as="geometry" />
+        </mxCell>
+
+        <mxCell id="vitd_icon" value="🐟" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#E74C3C;strokeColor=#C0392B;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="100" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="vitd_title" value="ビタミンD" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#E74C3C;" vertex="1" parent="1">
+          <mxGeometry x="220" y="355" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="vitd_role" value="役割：カルシウムの吸収を助ける&#xa;目標：5～10μg/日" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="220" y="395" width="340" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="vitd_foods" value="代表食品：魚（鮭・サンマ）・きのこ・卵" style="text;html=1;strokeColor=#E74C3C;fillColor=#F9EBEA;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="340" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 栄養素4: 亜鉛 -->
+        <mxCell id="zinc_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4ECF7;strokeColor=#9B59B6;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="620" y="340" width="500" height="150" as="geometry" />
+        </mxCell>
+
+        <mxCell id="zinc_icon" value="🦪" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#9B59B6;strokeColor=#7D3C98;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="100" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="zinc_title" value="亜鉛" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#9B59B6;" vertex="1" parent="1">
+          <mxGeometry x="760" y="355" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="zinc_role" value="役割：骨の成長を促進する&#xa;目標：8～10mg/日" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="395" width="340" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="zinc_foods" value="代表食品：牡蠣・レバー・牛肉・ナッツ" style="text;html=1;strokeColor=#9B59B6;fillColor=#EBDEF0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="450" width="340" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 栄養素5: 鉄 -->
+        <mxCell id="iron_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EBF5FB;strokeColor=#3498DB;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="500" height="150" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iron_icon" value="🥬" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#3498DB;strokeColor=#2874A6;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="100" y="540" width="100" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iron_title" value="鉄" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#3498DB;" vertex="1" parent="1">
+          <mxGeometry x="220" y="535" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iron_role" value="役割：成長に必要な酸素を運ぶ&#xa;目標：8～12mg/日" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="220" y="575" width="340" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iron_foods" value="代表食品：レバー・赤身肉・ほうれん草" style="text;html=1;strokeColor=#3498DB;fillColor=#D6EAF8;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="630" width="340" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 重要ポイント -->
+        <mxCell id="important_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6E6;strokeColor=#C00000;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="620" y="520" width="500" height="150" as="geometry" />
+        </mxCell>
+
+        <mxCell id="important_title" value="⚠️ 重要ポイント" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#C00000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="535" width="460" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="important_point1" value="✓ 5つの栄養素をバランス良く摂る" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="575" width="420" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="important_point2" value="✓ 1つだけ摂っても効果は限定的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="605" width="420" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="important_point3" value="✓ 毎日継続することが最も重要" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="635" width="420" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- 1日の摂取例 -->
+        <mxCell id="example_title" value="📋 1日の摂取例" style="text;html=1;strokeColor=#27AE60;fillColor=#E8F8F5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="700" width="300" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="example_breakfast" value="朝食：納豆ご飯・卵焼き・牛乳200ml" style="text;html=1;strokeColor=none;fillColor=#F0F0F0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="760" width="480" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="example_lunch" value="昼食：焼き魚定食・小松菜のおひたし" style="text;html=1;strokeColor=none;fillColor=#F0F0F0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="805" width="480" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="example_snack" value="おやつ：ヨーグルト・ナッツ" style="text;html=1;strokeColor=none;fillColor=#F0F0F0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="620" y="760" width="480" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="example_dinner" value="夕食：鶏肉のソテー・豆腐サラダ・牛乳200ml" style="text;html=1;strokeColor=none;fillColor=#F0F0F0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="620" y="805" width="480" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="example_note" value="→ これで5大栄養素がバランス良く摂取できます！" style="text;html=1;strokeColor=#27AE60;fillColor=#D5F4E6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="860" width="600" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

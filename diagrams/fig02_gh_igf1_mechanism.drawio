@@ -1,0 +1,110 @@
+<mxfile host="app.diagrams.net" modified="2025-11-16T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram name="成長ホルモンとIGF-1の作用メカニズム" id="gh-igf1-mechanism">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- タイトル -->
+        <mxCell id="title" value="成長ホルモン（GH）とIGF-1による身長の伸びるしくみ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="520" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 1. 脳下垂体 -->
+        <mxCell id="pituitary" value="脳下垂体" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#7B1FA2;strokeWidth=3;fontSize=14;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印1 -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeColor=#1976D2;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pituitary">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="400" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow1-label" value="成長ホルモン（GH）を分泌" style="text;html=1;strokeColor=none;fillColor=#E3F2FD;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="420" y="220" width="180" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 2. 肝臓 -->
+        <mxCell id="liver" value="肝臓" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCBC;strokeColor=#E64A19;strokeWidth=3;fontSize=14;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印2 -->
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeColor=#1976D2;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="liver">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="400" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow2-label" value="IGF-1（ソマトメジンC）を産生" style="text;html=1;strokeColor=none;fillColor=#FFF9C4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="420" y="355" width="220" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 3. 血液中を循環 -->
+        <mxCell id="circulation" value="血液中を&#xa;全身に運ばれる" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3E5FC;strokeColor=#0277BD;strokeWidth=2;fontSize=13;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印3 -->
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeColor=#1976D2;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="circulation">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="490" as="sourcePoint" />
+            <mxPoint x="400" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 4. 骨端線 -->
+        <mxCell id="growth-plate" value="骨端線&#xa;（成長軟骨帯）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#388E3C;strokeWidth=3;fontSize=14;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="340" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印4 -->
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeColor=#388E3C;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="growth-plate">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <mxPoint x="400" y="680" as="targetTarget" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow4-label" value="軟骨細胞の増殖を促進" style="text;html=1;strokeColor=none;fillColor=#E8F5E9;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="420" y="625" width="170" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 5. 結果 -->
+        <mxCell id="result" value="骨が伸びる！&#xa;↓&#xa;身長が伸びる" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF59D;strokeColor=#F57F17;strokeWidth=3;fontSize=16;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="160" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 補足情報ボックス -->
+        <mxCell id="info-box" value="重要ポイント" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#3F51B5;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=メイリオ;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="220" height="240" as="geometry" />
+        </mxCell>
+
+        <mxCell id="info-text" value="&#10;① 成長ホルモンは主に&#xa;   夜間の深い睡眠中に&#xa;   分泌される&#xa;&#xa;② IGF-1が実際に骨を&#xa;   伸ばす働きをする&#xa;&#xa;③ 骨端線が閉じると&#xa;   効果がなくなる" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="90" y="550" width="200" height="190" as="geometry" />
+        </mxCell>
+
+        <!-- 睡眠との関連 -->
+        <mxCell id="sleep-note" value="💤 睡眠との関係" style="text;html=1;strokeColor=#7B1FA2;fillColor=#F3E5F5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sleep-text" value="夜10時～2時に&#xa;最も多く分泌" style="text;html=1;strokeColor=#7B1FA2;fillColor=#F3E5F5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="520" y="155" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sleep-arrow" value="" style="endArrow=classic;html=1;strokeColor=#7B1FA2;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="pituitary" target="sleep-note">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="160" as="sourcePoint" />
+            <mxPoint x="520" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

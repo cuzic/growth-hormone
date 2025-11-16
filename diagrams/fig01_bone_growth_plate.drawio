@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2025-11-16T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram name="骨端線の図解" id="bone-growth-plate">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- タイトル -->
+        <mxCell id="title" value="骨端線の状態による骨の成長" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 左側：骨端線が開いている状態 -->
+        <mxCell id="left-title" value="成長期の骨（骨端線が開いている）" style="text;html=1;strokeColor=none;fillColor=#E3F2FD;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 骨幹部（上） -->
+        <mxCell id="bone-shaft-top-open" value="骨幹部" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFECB3;strokeColor=#F57C00;strokeWidth=2;fontSize=12;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="140" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 骨端線（成長軟骨帯） -->
+        <mxCell id="growth-plate-open" value="骨端線&#xa;（成長軟骨帯）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#388E3C;strokeWidth=3;fontSize=12;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 骨端 -->
+        <mxCell id="bone-end-open" value="骨端部" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFECB3;strokeColor=#F57C00;strokeWidth=2;fontSize=12;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="140" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 説明矢印 -->
+        <mxCell id="arrow-open" value="ここで細胞分裂が&#xa;活発に行われ&#xa;骨が伸びる" style="text;html=1;strokeColor=#388E3C;fillColor=#E8F5E9;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="50" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-line-open" value="" style="endArrow=classic;html=1;strokeColor=#388E3C;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="arrow-open" target="growth-plate-open">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="150" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 右側：骨端線が閉じた状態 -->
+        <mxCell id="right-title" value="成人の骨（骨端線が閉じている）" style="text;html=1;strokeColor=none;fillColor=#FFEBEE;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 骨幹部（上） -->
+        <mxCell id="bone-shaft-top-closed" value="骨幹部" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CFD8DC;strokeColor=#546E7A;strokeWidth=2;fontSize=12;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="490" y="160" width="140" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 骨端線（閉じた状態） -->
+        <mxCell id="growth-plate-closed" value="骨端線&#xa;（閉鎖）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B0BEC5;strokeColor=#37474F;strokeWidth=3;fontSize=12;fontStyle=1;fontFamily=メイリオ;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="490" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 骨端 -->
+        <mxCell id="bone-end-closed" value="骨端部" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CFD8DC;strokeColor=#546E7A;strokeWidth=2;fontSize=12;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="490" y="300" width="140" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 説明テキスト -->
+        <mxCell id="text-closed" value="軟骨が骨化し&#xa;一体化している&#xa;→成長が止まる" style="text;html=1;strokeColor=#C62828;fillColor=#FFEBEE;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="50" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-line-closed" value="" style="endArrow=classic;html=1;strokeColor=#C62828;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="text-closed" target="growth-plate-closed">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="290" as="sourcePoint" />
+            <mxPoint x="630" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 注記 -->
+        <mxCell id="note" value="※骨端線は思春期の終わりごろに閉じ始め、成人になると完全に閉じます。&#xa;骨端線が閉じると、それ以上身長が伸びることはありません。" style="text;html=1;strokeColor=#1976D2;fillColor=#E3F2FD;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="620" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

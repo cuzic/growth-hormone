@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2025-11-16T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram name="最終身長予測の計算式" id="height-prediction">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- タイトル -->
+        <mxCell id="title" value="最終身長の予測方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="320" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 計算式ボックス -->
+        <mxCell id="formula-box" value="男の子の予測最終身長" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=3;fontSize=16;fontStyle=1;fontFamily=メイリオ;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="500" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- 計算式 -->
+        <mxCell id="formula" value="(父の身長 + 母の身長 + 13) ÷ 2" style="text;html=1;strokeColor=#1976D2;fillColor=#BBDEFB;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=22;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="400" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 説明 -->
+        <mxCell id="formula-note" value="※男の子の場合は +13、女の子の場合は -13 を使用します" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="200" y="235" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 誤差範囲 -->
+        <mxCell id="margin" value="± 9 cm の誤差範囲があります" style="text;html=1;strokeColor=#F57C00;fillColor=#FFF3E0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="225" y="265" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- 具体例 -->
+        <mxCell id="example-box" value="計算例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F57F17;strokeWidth=3;fontSize=16;fontStyle=1;fontFamily=メイリオ;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="500" height="220" as="geometry" />
+        </mxCell>
+
+        <!-- 例1：両親の身長 -->
+        <mxCell id="example-data" value="父の身長：172cm　　母の身長：160cm の場合" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="170" y="380" width="460" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- 計算過程 -->
+        <mxCell id="calc-step1" value="① (172 + 160 + 13) ÷ 2 = 172.5 cm" style="text;html=1;strokeColor=none;fillColor=#FFFDE7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="420" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 予測範囲 -->
+        <mxCell id="result-box" value="予測最終身長：172.5 cm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#388E3C;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=メイリオ;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="470" width="300" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 範囲表示 -->
+        <mxCell id="range-label" value="実際の最終身長の予測範囲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="250" y="520" width="300" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 範囲バー -->
+        <mxCell id="range-bar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#81C784;strokeColor=#388E3C;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="550" width="420" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 最小値 -->
+        <mxCell id="min-value" value="163.5cm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="170" y="585" width="60" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 中央値 -->
+        <mxCell id="center-value" value="172.5cm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="370" y="585" width="60" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 最大値 -->
+        <mxCell id="max-value" value="181.5cm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="570" y="585" width="60" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 矢印（-9cm） -->
+        <mxCell id="arrow-left" value="-9cm" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#D32F2F;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="565" as="sourcePoint" />
+            <mxPoint x="390" y="565" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 矢印（+9cm） -->
+        <mxCell id="arrow-right" value="+9cm" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#D32F2F;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="565" as="sourcePoint" />
+            <mxPoint x="610" y="565" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 注意事項 -->
+        <mxCell id="note-box" value="重要なポイント" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#3F51B5;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=メイリオ;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="150" y="630" width="500" height="110" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note-text" value="&#10;・ この計算式はあくまで「目安」です&#xa;・ 環境要因（睡眠・栄養・運動）で±9cm程度変わる可能性があります&#xa;・ 適切な成長ホルモン治療により、予測を上回ることも可能です" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontFamily=メイリオ;" vertex="1" parent="1">
+          <mxGeometry x="165" y="660" width="470" height="70" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

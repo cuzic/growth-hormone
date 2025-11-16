@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" modified="2025-11-16T00:00:00.000Z" agent="5.0" version="21.6.5">
+  <diagram name="肥満から身長低下のフロー" id="obesity-flow">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="肥満が最終身長を低下させるメカニズム" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Step 1: 肥満 -->
+        <mxCell id="step1" value="肥満&#xa;(BMI +2SD以上)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Step 2: 思春期早発 -->
+        <mxCell id="step2" value="思春期早発&#xa;(9歳未満での開始)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="370" y="150" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Step 3: 骨端線早期閉鎖 -->
+        <mxCell id="step3" value="骨端線早期閉鎖&#xa;(成長期間の短縮)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="640" y="150" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Step 4: 最終身長低下 -->
+        <mxCell id="step4" value="最終身長低下&#xa;-5～10cm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="910" y="150" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 1 -->
+        <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="step1" target="step2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 2 -->
+        <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="step2" target="step3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 3 -->
+        <mxCell id="arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="step3" target="step4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Explanation 1 -->
+        <mxCell id="explain1" value="体脂肪増加により&#xa;性ホルモン分泌が促進" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="285" y="270" width="160" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Explanation 2 -->
+        <mxCell id="explain2" value="性ホルモンが&#xa;骨の成熟を加速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="555" y="270" width="160" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Explanation 3 -->
+        <mxCell id="explain3" value="成長できる&#xa;期間が短くなる" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="825" y="270" width="160" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Warning Box -->
+        <mxCell id="warning" value="⚠️ 注意：肥満の期間が長いほど影響が大きい&#xa;早期の体重管理が重要" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="600" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow connections to explanations -->
+        <mxCell id="arrow_exp1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;dashed=1;fontSize=12;fontFamily=Noto Sans JP;" edge="1" parent="1" source="step1" target="explain1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="230" as="sourcePoint" />
+            <mxPoint x="365" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="250" />
+              <mxPoint x="365" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow_exp2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;dashed=1;fontSize=12;fontFamily=Noto Sans JP;" edge="1" parent="1" source="step2" target="explain2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="230" as="sourcePoint" />
+            <mxPoint x="635" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="250" />
+              <mxPoint x="635" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow_exp3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;dashed=1;fontSize=12;fontFamily=Noto Sans JP;" edge="1" parent="1" source="step3" target="explain3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="230" as="sourcePoint" />
+            <mxPoint x="905" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="250" />
+              <mxPoint x="905" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

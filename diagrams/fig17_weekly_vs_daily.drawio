@@ -1,0 +1,164 @@
+<mxfile host="app.diagrams.net" modified="2025-11-16T00:00:00.000Z" agent="5.0" version="21.6.5">
+  <diagram name="週1回vs毎日製剤比較" id="weekly-vs-daily">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="週1回製剤 vs 毎日製剤の比較" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Table Header -->
+        <mxCell id="header_item" value="比較項目" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#2e5ea6;fontSize=16;fontStyle=1;fontColor=#ffffff;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header_daily" value="毎日製剤" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#2e5ea6;fontSize=16;fontStyle=1;fontColor=#ffffff;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header_weekly" value="週1回製剤" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=#d66c2e;fontSize=16;fontStyle=1;fontColor=#ffffff;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Row 1: 注射回数 -->
+        <mxCell id="row1_item" value="注射回数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e7e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row1_daily" value="毎日1回（週7回）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="380" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row1_weekly" value="週1回のみ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="380" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 2: 費用 -->
+        <mxCell id="row2_item" value="費用&#xa;(月額・30kg)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e7e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row2_daily" value="約7.5万円" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="380" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row2_weekly" value="約12万円（+60%）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="680" y="230" width="380" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 3: 投与方法 -->
+        <mxCell id="row3_item" value="投与方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e7e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row3_daily" value="細い針（30～32G）&#xa;皮下注射&#xa;痛みが少ない" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="380" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row3_weekly" value="やや太い針&#xa;皮下注射&#xa;やや痛みあり" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="680" y="290" width="380" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Row 4: 心理的負担 -->
+        <mxCell id="row4_item" value="心理的負担" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e7e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row4_daily" value="毎日の習慣化が必要&#xa;忘れやすい&#xa;旅行時の持参が面倒" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="370" width="380" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row4_weekly" value="週1回で済む&#xa;忘れにくい&#xa;生活への影響が少ない" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="680" y="370" width="380" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Row 5: 効果 -->
+        <mxCell id="row5_item" value="効果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e7e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="450" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row5_daily" value="血中濃度が安定&#xa;生理的分泌パターンに近い&#xa;長期実績が豊富" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="380" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row5_weekly" value="血中濃度が変動&#xa;効果は毎日製剤と同等&#xa;比較的新しい製剤" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="680" y="450" width="380" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Row 6: 保管 -->
+        <mxCell id="row6_item" value="保管方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e7e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="530" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row6_daily" value="冷蔵保存（2～8℃）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="530" width="380" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row6_weekly" value="冷蔵保存（2～8℃）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="680" y="530" width="380" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 7: コンプライアンス -->
+        <mxCell id="row7_item" value="治療継続性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e7e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="590" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row7_daily" value="打ち忘れが多い&#xa;思春期は特に継続困難&#xa;コンプライアンス：60～70%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="590" width="380" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row7_weekly" value="打ち忘れが少ない&#xa;継続しやすい&#xa;コンプライアンス：80～90%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="680" y="590" width="380" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Row 8: 適している人 -->
+        <mxCell id="row8_item" value="適している人" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e7e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="670" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row8_daily" value="• 費用を抑えたい&#xa;• 毎日の習慣が苦にならない&#xa;• 長期実績を重視&#xa;• 血中濃度の安定を重視" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="300" y="670" width="380" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row8_weekly" value="• 注射回数を減らしたい&#xa;• 思春期の子供&#xa;• 忙しい生活スタイル&#xa;• 治療継続性を重視" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="680" y="670" width="380" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Summary Box: Daily -->
+        <mxCell id="summary_daily_title" value="毎日製剤のまとめ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#2e5ea6;fontSize=15;fontStyle=1;fontColor=#ffffff;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="810" width="460" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="summary_daily_merit" value="メリット：&#xa;✓ 費用が安い（週1回の約60%）&#xa;✓ 血中濃度が安定&#xa;✓ 長期安全性データが豊富" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="845" width="460" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="summary_daily_demerit" value="デメリット：&#xa;✗ 毎日の注射が必要&#xa;✗ 打ち忘れが多い&#xa;✗ 旅行時の管理が面倒" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="925" width="460" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Summary Box: Weekly -->
+        <mxCell id="summary_weekly_title" value="週1回製剤のまとめ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=#d66c2e;fontSize=15;fontStyle=1;fontColor=#ffffff;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="600" y="810" width="460" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="summary_weekly_merit" value="メリット：&#xa;✓ 週1回の注射で済む&#xa;✓ 治療継続性が高い&#xa;✓ 生活への影響が少ない&#xa;✓ 思春期でも続けやすい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="845" width="460" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="summary_weekly_demerit" value="デメリット：&#xa;✗ 費用が高い（毎日の約1.6倍）&#xa;✗ 血中濃度が変動する&#xa;✗ 長期データが比較的少ない" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="940" width="460" height="65" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom Note -->
+        <mxCell id="note" value="※ 最終的な選択は、お子さんの年齢、性格、家庭の経済状況などを考慮して医師と相談してください&#xa;※ 多くの医療機関では、まず毎日製剤から開始し、継続困難な場合に週1回製剤に変更することが多いです" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1030" width="960" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

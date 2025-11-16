@@ -1,0 +1,137 @@
+<mxfile host="app.diagrams.net" modified="2025-11-16T00:00:00.000Z" agent="5.0" version="21.6.5">
+  <diagram name="ストレスによる成長阻害" id="stress-mechanism">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="ストレスが成長を阻害するメカニズム" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Central: Stress -->
+        <mxCell id="stress" value="慢性的なストレス" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="300" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Path 1: Cortisol -->
+        <mxCell id="cortisol" value="コルチゾール&#xa;（ストレスホルモン）&#xa;増加" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow_stress_cortisol" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="stress" target="cortisol">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="gh_suppress" value="成長ホルモン&#xa;分泌抑制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="150" y="450" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow_cortisol_gh" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="cortisol" target="gh_suppress">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Path 2: Sleep -->
+        <mxCell id="sleep" value="睡眠の質低下" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="510" y="320" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow_stress_sleep" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="stress" target="sleep">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sleep_gh" value="深い睡眠時の&#xa;GH分泌減少" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="510" y="450" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow_sleep_gh" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="sleep" target="sleep_gh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Path 3: Appetite -->
+        <mxCell id="appetite" value="食欲低下&#xa;栄養不足" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="870" y="320" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow_stress_appetite" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="stress" target="appetite">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nutrition" value="タンパク質・&#xa;カルシウム不足" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="870" y="450" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow_appetite_nutrition" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="appetite" target="nutrition">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Final Result -->
+        <mxCell id="result" value="成長速度の低下&#xa;最終身長の減少" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=18;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="400" y="600" width="400" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows to Result -->
+        <mxCell id="arrow_gh_result" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="gh_suppress" target="result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow_sleep_result" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="sleep_gh" target="result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow_nutrition_result" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=14;fontFamily=Noto Sans JP;" edge="1" parent="1" source="nutrition" target="result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Stress Sources Box -->
+        <mxCell id="sources_title" value="主なストレス要因" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="730" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="source1" value="• 受験や学業プレッシャー" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="760" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="source2" value="• 家庭環境の問題（両親の不和など）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="785" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="source3" value="• いじめや友人関係のトラブル" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="810" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="source4" value="• 過度の習い事やスポーツ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="100" y="835" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Solutions Box -->
+        <mxCell id="solutions_title" value="対策" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="450" y="730" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="solution1" value="✓ 十分な睡眠時間の確保（9時間以上）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="760" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="solution2" value="✓ リラックスできる時間を作る" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="795" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="solution3" value="✓ 親子のコミュニケーション強化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="830" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Warning Box -->
+        <mxCell id="warning_title" value="重要" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="850" y="730" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="warning1" value="慢性的なストレスは、&#xa;年間成長率を&#xa;2～3cm低下させる&#xa;可能性があります" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="850" y="760" width="250" height="100" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

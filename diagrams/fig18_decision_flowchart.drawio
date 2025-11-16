@@ -1,0 +1,221 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="意思決定フローチャート" id="decision-flowchart">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 開始 -->
+        <mxCell id="start" value="成長ホルモン治療を&#xa;検討中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="314" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- チェック1: 専門医受診 -->
+        <mxCell id="check1" value="1. 専門医を&#xa;受診したか？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="324" y="140" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="start" target="check1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- No分岐1 -->
+        <mxCell id="no1" value="専門医受診へ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_no1" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="check1" target="no1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- チェック2: 保険適用 -->
+        <mxCell id="check2" value="2. 保険適用の&#xa;確認は済んだか？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="324" y="260" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="check1" target="check2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- No分岐2 -->
+        <mxCell id="no2" value="保険情報確認へ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_no2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="check2" target="no2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- チェック3: 検査結果 -->
+        <mxCell id="check3" value="3. 必要な検査を&#xa;受けたか？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="324" y="380" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="check2" target="check3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- No分岐3 -->
+        <mxCell id="no3" value="検査予約へ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_no3" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="check3" target="no3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- チェック4: セカンドオピニオン -->
+        <mxCell id="check4" value="4. セカンド&#xa;オピニオンを&#xa;取得したか？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="324" y="500" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="check3" target="check4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- No分岐4 -->
+        <mxCell id="no4" value="他院受診検討" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_no4" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="check4" target="no4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- チェック5: 家族の理解 -->
+        <mxCell id="check5" value="5. 家族全員の&#xa;理解と同意を&#xa;得たか？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="324" y="620" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="check4" target="check5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- No分岐5 -->
+        <mxCell id="no5" value="家族で話し合い" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="120" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_no5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="check5" target="no5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- チェック6: 費用計画 -->
+        <mxCell id="check6" value="6. 費用計画は&#xa;立てたか？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="564" y="140" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow6" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="check5" target="check6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="660" />
+              <mxPoint x="540" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- No分岐6 -->
+        <mxCell id="no6" value="予算計画作成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="788" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_no6" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="check6" target="no6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- チェック7: 通院体制 -->
+        <mxCell id="check7" value="7. 定期通院の&#xa;体制は整ったか？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="564" y="260" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow7" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="check6" target="check7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- No分岐7 -->
+        <mxCell id="no7" value="スケジュール調整" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="788" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_no7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="check7" target="no7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- チェック8: 副作用理解 -->
+        <mxCell id="check8" value="8. 副作用や&#xa;リスクを理解&#xa;したか？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="564" y="380" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow8" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="check7" target="check8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- No分岐8 -->
+        <mxCell id="no8" value="医師に詳細確認" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="788" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_no8" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="check8" target="no8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- チェック9: 生活改善 -->
+        <mxCell id="check9" value="9. 生活習慣改善の&#xa;準備はできたか？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="564" y="500" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="check8" target="check9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- No分岐9 -->
+        <mxCell id="no9" value="改善計画作成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="788" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_no9" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="check9" target="no9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- チェック10: 本人の意思 -->
+        <mxCell id="check10" value="10. 本人が治療を&#xa;望んでいるか？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="564" y="620" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow10" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="check9" target="check10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- No分岐10 -->
+        <mxCell id="no10" value="本人と対話" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="788" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_no10" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="check10" target="no10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 最終決定 -->
+        <mxCell id="final_decision" value="最終決定" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="584" y="750" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_final" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="check10" target="final_decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 選択肢1: やる -->
+        <mxCell id="choice1" value="治療を開始する" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="354" y="850" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_choice1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="final_decision" target="choice1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="424" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 選択肢2: 保留 -->
+        <mxCell id="choice2" value="3ヶ月後に再検討" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="584" y="850" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_choice2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="final_decision" target="choice2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 選択肢3: やらない -->
+        <mxCell id="choice3" value="治療しない選択" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="814" y="850" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_choice3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="final_decision" target="choice3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="884" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

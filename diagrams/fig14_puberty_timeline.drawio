@@ -1,0 +1,170 @@
+<mxfile host="app.diagrams.net" modified="2025-11-16T00:00:00.000Z" agent="5.0" version="21.6.5">
+  <diagram name="思春期タイムライン比較" id="puberty-timeline">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="正常な思春期 vs 思春期早発症（男子）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Age Scale -->
+        <mxCell id="age6" value="6歳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age8" value="8歳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="290" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age10" value="10歳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="430" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age12" value="12歳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="570" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age14" value="14歳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="710" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age16" value="16歳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="850" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age18" value="18歳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="990" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Timeline Line -->
+        <mxCell id="timeline" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontFamily=Noto Sans JP;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="125" as="sourcePoint" />
+            <mxPoint x="1030" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Normal Puberty Section -->
+        <mxCell id="normal_label" value="正常な思春期" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Normal: Prepuberty -->
+        <mxCell id="normal_pre" value="思春期前" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="300" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Normal: Puberty Start -->
+        <mxCell id="normal_start" value="思春期開始&#xa;(9～14歳)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="470" y="180" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Normal: Growth Period -->
+        <mxCell id="normal_growth" value="急激な成長期&#xa;(年間8～12cm)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="610" y="180" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Normal: End -->
+        <mxCell id="normal_end" value="成長終了&#xa;(16～18歳)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="810" y="180" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Normal Final Height -->
+        <mxCell id="normal_final" value="最終身長&#xa;170～175cm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="980" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Early Puberty Section -->
+        <mxCell id="early_label" value="思春期早発症" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;fontColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Early: Short Prepuberty -->
+        <mxCell id="early_pre" value="思春期前" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Early: Puberty Start -->
+        <mxCell id="early_start" value="早期開始&#xa;(&lt;9歳)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Early: Growth Period -->
+        <mxCell id="early_growth" value="急激な成長期&#xa;(短期間)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Early: Early End -->
+        <mxCell id="early_end" value="早期終了&#xa;(13～15歳)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Early: No More Growth -->
+        <mxCell id="early_nogrowth" value="成長停止期間" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13;fontFamily=Noto Sans JP;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="720" y="300" width="240" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Early Final Height -->
+        <mxCell id="early_final" value="最終身長&#xa;160～165cm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="980" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Height Difference Arrow -->
+        <mxCell id="diff_arrow" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=0;size=0.5;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="180" width="20" height="170" as="geometry" />
+        </mxCell>
+
+        <mxCell id="diff_text" value="身長差&#xa;-5～10cm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;fontColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points Box -->
+        <mxCell id="keypoints_title" value="ポイント" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="point1" value="✓ 思春期早発症では、成長期間が2～3年短くなる" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="170" y="440" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="point2" value="✓ 一時的に同級生より高くても、最終的には低くなる" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="170" y="490" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="point3" value="✓ 早期発見・早期治療で最終身長の低下を防げる" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="170" y="540" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Signs Box -->
+        <mxCell id="signs_title" value="思春期早発症のサイン（男子）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="610" y="400" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sign1" value="• 9歳未満で精巣の発育開始（4ml以上）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="440" width="400" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sign2" value="• 8歳未満で陰毛の発育" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="480" width="400" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sign3" value="• 身長の急激な伸び（年間8cm以上）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="520" width="400" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sign4" value="• 骨年齢が実年齢より2歳以上進んでいる" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="560" width="400" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Warning -->
+        <mxCell id="warning" value="⚠️ これらのサインがあれば、早めに小児内分泌専門医に相談してください" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="170" y="630" width="840" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

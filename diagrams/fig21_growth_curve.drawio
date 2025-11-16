@@ -1,0 +1,297 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="成長曲線プロット例" id="growth-curve">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- タイトル -->
+        <mxCell id="title" value="男子身長成長曲線（日本人標準）とプロット例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="1000" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Y軸ラベル -->
+        <mxCell id="ylabel" value="身長 (cm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1;rotation=-90" vertex="1" parent="1">
+          <mxGeometry x="30" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- X軸ラベル -->
+        <mxCell id="xlabel" value="年齢（歳）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="530" y="730" width="120" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- グラフエリア背景 -->
+        <mxCell id="graph_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="920" height="600" as="geometry" />
+        </mxCell>
+
+        <!-- Y軸目盛り -->
+        <mxCell id="y180" value="180" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y170" value="170" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y160" value="160" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y150" value="150" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y140" value="140" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y130" value="130" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y120" value="120" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="70" y="490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y110" value="110" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="70" y="550" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y100" value="100" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="70" y="610" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y90" value="90" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="70" y="670" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- X軸目盛り -->
+        <mxCell id="x5" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="200" y="725" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x6" value="6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="280" y="725" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x7" value="7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="360" y="725" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x8" value="8" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="440" y="725" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x9" value="9" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="520" y="725" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x10" value="10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="600" y="725" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x11" value="11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="680" y="725" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x12" value="12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="760" y="725" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x13" value="13" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="840" y="725" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x14" value="14" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="920" y="725" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x15" value="15" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="1000" y="725" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- グリッド線（横） -->
+        <mxCell id="grid_y180" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="920" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grid_y170" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="920" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grid_y160" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="920" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grid_y150" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="920" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grid_y140" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="920" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grid_y130" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="920" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grid_y120" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="920" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grid_y110" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="920" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grid_y100" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="920" height="1" as="geometry" />
+        </mxCell>
+
+        <!-- 標準曲線 +2SD（上位2.3%） -->
+        <mxCell id="curve_p2sd" value="" style="curved=1;endArrow=none;html=1;strokeColor=#82b366;strokeWidth=2;fillColor=none;dashed=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="565" as="sourcePoint" />
+            <mxPoint x="1015" y="155" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="295" y="505" />
+              <mxPoint x="375" y="455" />
+              <mxPoint x="455" y="415" />
+              <mxPoint x="535" y="375" />
+              <mxPoint x="615" y="335" />
+              <mxPoint x="695" y="285" />
+              <mxPoint x="775" y="225" />
+              <mxPoint x="855" y="185" />
+              <mxPoint x="935" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 標準曲線 平均（50パーセンタイル） -->
+        <mxCell id="curve_mean" value="" style="curved=1;endArrow=none;html=1;strokeColor=#666666;strokeWidth=3;fillColor=none" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="625" as="sourcePoint" />
+            <mxPoint x="1015" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="295" y="565" />
+              <mxPoint x="375" y="515" />
+              <mxPoint x="455" y="475" />
+              <mxPoint x="535" y="445" />
+              <mxPoint x="615" y="415" />
+              <mxPoint x="695" y="375" />
+              <mxPoint x="775" y="325" />
+              <mxPoint x="855" y="285" />
+              <mxPoint x="935" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 標準曲線 -2SD（下位2.3%） -->
+        <mxCell id="curve_m2sd" value="" style="curved=1;endArrow=none;html=1;strokeColor=#b85450;strokeWidth=2;fillColor=none;dashed=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="685" as="sourcePoint" />
+            <mxPoint x="1015" y="335" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="295" y="625" />
+              <mxPoint x="375" y="575" />
+              <mxPoint x="455" y="535" />
+              <mxPoint x="535" y="505" />
+              <mxPoint x="615" y="475" />
+              <mxPoint x="695" y="445" />
+              <mxPoint x="775" y="405" />
+              <mxPoint x="855" y="375" />
+              <mxPoint x="935" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 改善前のプロット（赤い×印） -->
+        <mxCell id="plot_before_1" value="✕" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#cc0000" vertex="1" parent="1">
+          <mxGeometry x="370" y="585" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plot_before_2" value="✕" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#cc0000" vertex="1" parent="1">
+          <mxGeometry x="450" y="555" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plot_before_3" value="✕" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#cc0000" vertex="1" parent="1">
+          <mxGeometry x="530" y="525" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plot_before_4" value="✕" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#cc0000" vertex="1" parent="1">
+          <mxGeometry x="610" y="495" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 改善前の線 -->
+        <mxCell id="line_before" value="" style="curved=1;endArrow=classic;html=1;strokeColor=#cc0000;strokeWidth=2;fillColor=none;dashed=1;dashPattern=8 4" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="595" as="sourcePoint" />
+            <mxPoint x="620" y="505" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="565" />
+              <mxPoint x="540" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 改善後のプロット（青い●印） -->
+        <mxCell id="plot_after_1" value="●" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#0066cc" vertex="1" parent="1">
+          <mxGeometry x="690" y="460" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plot_after_2" value="●" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#0066cc" vertex="1" parent="1">
+          <mxGeometry x="770" y="415" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plot_after_3" value="●" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#0066cc" vertex="1" parent="1">
+          <mxGeometry x="850" y="375" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 改善後の線 -->
+        <mxCell id="line_after" value="" style="curved=1;endArrow=classic;html=1;strokeColor=#0066cc;strokeWidth=3;fillColor=none" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="505" as="sourcePoint" />
+            <mxPoint x="860" y="385" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="470" />
+              <mxPoint x="780" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 凡例エリア -->
+        <mxCell id="legend_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_title" value="凡例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="150" y="165" width="220" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- 凡例：+2SD -->
+        <mxCell id="legend_p2sd_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;strokeWidth=2;dashed=1" vertex="1" parent="1">
+          <mxGeometry x="165" y="200" width="40" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_p2sd_text" value="+2SD（上位2.3%）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="215" y="190" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 凡例：平均 -->
+        <mxCell id="legend_mean_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=3" vertex="1" parent="1">
+          <mxGeometry x="165" y="225" width="40" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_mean_text" value="平均（50%）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="215" y="215" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 凡例：-2SD -->
+        <mxCell id="legend_m2sd_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;strokeWidth=2;dashed=1" vertex="1" parent="1">
+          <mxGeometry x="165" y="250" width="40" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_m2sd_text" value="-2SD（下位2.3%）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="215" y="240" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 凡例：改善前 -->
+        <mxCell id="legend_before" value="✕" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;fontColor=#cc0000" vertex="1" parent="1">
+          <mxGeometry x="170" y="265" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_before_text" value="改善前のデータ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="215" y="265" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 凡例：改善後 -->
+        <mxCell id="legend_after" value="●" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;fontColor=#0066cc" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_after_text" value="改善後のデータ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="215" y="290" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 注釈：改善の矢印 -->
+        <mxCell id="improvement_arrow" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeColor=#009900;fillColor=#d5e8d4;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="560" as="sourcePoint" />
+            <mxPoint x="730" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="improvement_text" value="生活改善により&#xa;成長曲線が上昇！" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="580" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 注釈 -->
+        <mxCell id="note" value="※ このグラフは例示です。実際の成長曲線は個人差があります。&#xa;※ 定期的に測定し、自分のお子さんの成長曲線を記録しましょう。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=10;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="920" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

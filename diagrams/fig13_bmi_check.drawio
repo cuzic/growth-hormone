@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" modified="2025-11-16T00:00:00.000Z" agent="5.0" version="21.6.5">
+  <diagram name="BMIチェック表" id="bmi-check">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="学童期のBMI基準値（男子）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Table Header Row -->
+        <mxCell id="header_age" value="年齢" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#2e5ea6;fontSize=16;fontStyle=1;fontColor=#ffffff;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="150" y="150" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header_low" value="やせ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#2e5ea6;fontSize=16;fontStyle=1;fontColor=#ffffff;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header_normal" value="正常範囲" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#2e5ea6;fontSize=16;fontStyle=1;fontColor=#ffffff;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="370" y="150" width="180" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header_overweight" value="軽度肥満" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#2e5ea6;fontSize=16;fontStyle=1;fontColor=#ffffff;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="550" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header_obese" value="中等度肥満" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#2e5ea6;fontSize=16;fontStyle=1;fontColor=#ffffff;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="670" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header_severe" value="高度肥満" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#2e5ea6;fontSize=16;fontStyle=1;fontColor=#ffffff;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="790" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 10歳 Row -->
+        <mxCell id="age10" value="10歳" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e7e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age10_low" value="&lt; 13.8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age10_normal" value="13.8 - 19.9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age10_over" value="20.0 - 22.9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="550" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age10_obese" value="23.0 - 25.9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="670" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age10_severe" value="≥ 26.0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="790" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 11歳 Row -->
+        <mxCell id="age11" value="11歳" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e7e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age11_low" value="&lt; 14.3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age11_normal" value="14.3 - 20.9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age11_over" value="21.0 - 23.9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age11_obese" value="24.0 - 26.9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age11_severe" value="≥ 27.0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="790" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 12歳 Row -->
+        <mxCell id="age12" value="12歳" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e7e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age12_low" value="&lt; 14.8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="250" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age12_normal" value="14.8 - 21.9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age12_over" value="22.0 - 24.9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age12_obese" value="25.0 - 27.9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="age12_severe" value="≥ 28.0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="790" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- BMI Calculation Box -->
+        <mxCell id="calc_box" value="BMI = 体重(kg) ÷ 身長(m) ÷ 身長(m)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="760" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Example -->
+        <mxCell id="example_title" value="計算例" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Noto Sans JP;" vertex="1" parent="1">
+          <mxGeometry x="150" y="500" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="example1" value="11歳、身長150cm、体重45kgの場合：&#xa;BMI = 45 ÷ 1.5 ÷ 1.5 = 20.0 → 軽度肥満" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="540" width="350" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="example2" value="12歳、身長155cm、体重50kgの場合：&#xa;BMI = 50 ÷ 1.55 ÷ 1.55 = 20.8 → 正常範囲" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontFamily=Noto Sans JP;align=left;" vertex="1" parent="1">
+          <mxGeometry x="530" y="540" width="380" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Note -->
+        <mxCell id="note" value="※ 軽度肥満以上の場合は、体重管理が必要です&#xa;※ 女子の基準値は男子と若干異なります" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Noto Sans JP;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="150" y="640" width="760" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
