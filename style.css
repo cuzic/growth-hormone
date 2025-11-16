@@ -1,0 +1,189 @@
+/* 書籍用スタイルシート */
+
+:root {
+    --primary-color: #2c5f7c;
+    --secondary-color: #4a90b5;
+    --text-color: #333;
+    --bg-color: #f8f9fa;
+    --border-color: #dee2e6;
+}
+
+body {
+    font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', YuGothic, 'Meiryo', sans-serif;
+    line-height: 1.8;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 16px;
+}
+
+h1 {
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h2 {
+    color: var(--primary-color);
+    border-left: 5px solid var(--secondary-color);
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.6em;
+}
+
+h3 {
+    color: var(--secondary-color);
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-size: 1.3em;
+}
+
+h4 {
+    color: var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+ul, ol {
+    margin-bottom: 1em;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+blockquote {
+    border-left: 4px solid var(--secondary-color);
+    padding-left: 20px;
+    margin: 20px 0;
+    color: #555;
+    background-color: #f0f4f8;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    background-color: white;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid var(--border-color);
+    margin: 40px 0;
+}
+
+.title {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2.5em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 1.4em;
+    margin-bottom: 30px;
+}
+
+.author {
+    text-align: center;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.date {
+    text-align: center;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+}
+
+/* 印刷用スタイル */
+@media print {
+    body {
+        max-width: 100%;
+        background-color: white;
+    }
+
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+
+    table, figure {
+        page-break-inside: avoid;
+    }
+}
